@@ -1,2 +1,4 @@
 # paschwuerfeln
-Würfeltest
+
+Check if numbers match.
+Or don't
