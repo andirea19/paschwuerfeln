@@ -1,4 +1,5 @@
-# paschwuerfeln
+# Paschwuerfeln
 
 Check if numbers match.
-Or don't
+Or don't.
+I don't care
