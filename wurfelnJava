@@ -1,0 +1,24 @@
+public class Paschwuerfel {
+    public static void main(String[] args) {
+        // Würfeln bis zum Pasch
+        int min = 1;
+        int max = 6;
+        int counter = 0;
+
+        while (true) {
+            // Würfeln
+            int zahl1 = (int) (Math.random() * (max - min + 1) + min);
+            int zahl2 = (int) (Math.random() * (max - min + 1) + min);
+            
+            // Vergleichen
+            if (zahl1 == zahl2) {
+                break;
+            }
+            
+            // Zählen
+            counter++;
+        }
+
+        System.out.println("Bei Durchgang Nummer '" + counter + "' Pasch.");
+    }
+}
